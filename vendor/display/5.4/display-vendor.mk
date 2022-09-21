@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/common/vendor/
 
 PRODUCT_COPY_FILES += \
+    vendor/qcom/common/vendor/display/5.4/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/qcom/common/vendor/display/5.4/proprietary/vendor/lib/libqrtrclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqrtrclient.so \
     vendor/qcom/common/vendor/display/5.4/proprietary/vendor/lib/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqseed3.so \
     vendor/qcom/common/vendor/display/5.4/proprietary/vendor/lib/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-color.so \
